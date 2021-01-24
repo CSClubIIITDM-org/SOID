@@ -1,34 +1,33 @@
 import React from "react";
 import ContactInfo from "../components/ContactInfo";
-import { Row, Col } from "react-bootstrap";
 
 const Contact = () => {
   return (
     <React.Fragment>
-      <div className="container-fluid bg mt-0">
-        <Row>
-          <Col>
+      <div className="container-fluid bg mt-0 pb-5">
+        <div className="row px-5 pt-5">
+          <div className="col-sm-4 px-5">
             <ContactInfo />
-          </Col>
-          <Col style={{ marginTop: "100px" }}>
+          </div>
+          <div className="col-sm-4 px-5" style={{ marginTop: "100px" }}>
             <ContactInfo />
-          </Col>
-          <Col>
+          </div>
+          <div className="col-sm-4 px-5">
             <ContactInfo />
-          </Col>
-        </Row>
+          </div>
+        </div>
         <h1 className="contact-heading">Design Advisory Council</h1>
-        <Row style={{ marginTop: "80px" }}>
-          <Col>
+        <div className="row" style={{ marginTop: "80px" }}>
+          <div className="col-sm-4 px-5">
             <ContactInfo />
-          </Col>
-          <Col style={{ marginTop: "100px" }}>
+          </div>
+          <div className="col-sm-4 px-5" style={{ marginTop: "100px" }}>
             <ContactInfo />
-          </Col>
-          <Col>
+          </div>
+          <div className="col-sm-4 px-5">
             <ContactInfo />
-          </Col>
-        </Row>
+          </div>
+        </div>
       </div>
     </React.Fragment>
   );

@@ -3,8 +3,18 @@
   background-color: #ffe401;
 }
 
+.img-fliter {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
 * {
   scroll-behavior: smooth;
+}
+
+.card,
+.nav-link {
+  font-family: "Raleway", sans-serif;
 }
 
 .navbar-light {
@@ -14,7 +24,6 @@
 .navbar-light .nav-link {
   display: inline-block;
   text-decoration: none;
-  font-family: "Raleway", sans-serif;
 }
 
 .navbar-light .nav-link::before {
@@ -29,14 +38,6 @@
 
 .navbar-light .nav-link::before:hover::after {
   width: 100%;
-}
-
-.background {
-  background-color: #ffe401;
-}
-
-.img-description {
-  text-align: center;
 }
 
 .contact-heading {

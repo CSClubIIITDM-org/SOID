@@ -9,13 +9,16 @@ $primaryFont: "Raleway", sans-serif;
 * {
   scroll-behavior: smooth;
 }
+.card,
+.nav-link {
+  font-family: $primaryFont;
+}
 
 .navbar-light {
   background-color: $primaryColor !important;
   .nav-link {
     display: inline-block;
     text-decoration: none;
-    font-family: $primaryFont;
     &::before {
       content: "";
       display: block;
@@ -28,14 +31,6 @@ $primaryFont: "Raleway", sans-serif;
       }
     }
   }
-}
-
-.background {
-  background-color: #ffe401;
-}
-
-.img-description {
-  text-align: center;
 }
 
 .contact-heading {
