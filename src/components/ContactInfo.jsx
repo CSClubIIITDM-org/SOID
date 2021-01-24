@@ -5,8 +5,8 @@ const ContactInfo = () => {
     <React.Fragment>
       <div className="card bg border border-0">
         <img
-          className="card-img-top img-fliter"
-          src="https://randomuser.me/api/portraits/men/46.jpg"
+          className="card-img-top img-fliter shadow-sm"
+          src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?crop=faces&fit=crop&h=200&w=200&auto=compress&cs=tinysrgb"
           alt=""
         />
         <div className="card-body text-center">
