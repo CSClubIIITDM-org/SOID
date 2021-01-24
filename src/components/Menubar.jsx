@@ -8,20 +8,22 @@ import Nav from "react-bootstrap/Nav";
 
 function Menubar() {
   return (
-    <Navbar className="nabar color-nav underline" collapseOnSelect expand="lg">
+    
+    <Navbar className="navbar color-nav underline" collapseOnSelect expand="lg">
       {/* <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand> */}
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
-        <Nav className="ml-auto">
-          <Nav.Link href="#about">About</Nav.Link>
-          <Nav.Link href="#about">About</Nav.Link>
-          <Nav.Link href="#about">About</Nav.Link>
-          <Nav.Link href="#about">About</Nav.Link>
-          <Nav.Link href="#about">About</Nav.Link>
-          <Nav.Link href="#about">About</Nav.Link>
+        <Nav className="ml-auto ">
+          <Nav.Link className="left" href="#about">About</Nav.Link>
+          <Nav.Link className="left" href="#about">About</Nav.Link>
+          <Nav.Link className="left" href="#about">About</Nav.Link>
+          <Nav.Link className="left" href="#about">About</Nav.Link>
+          <Nav.Link className="left" href="#about">About</Nav.Link>
+          <Nav.Link className="left" href="#about">About</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
+ 
   );
 }
 
