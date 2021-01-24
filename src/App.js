@@ -1,12 +1,14 @@
 import React from "react";
-import "./App.css";
+import "./styles/style.css";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import ContactPage from "./Pages/ContactPage";
+import Menubar from "./components/Menubar";
 
 function App() {
   return (
     <React.Fragment>
       <BrowserRouter>
+        <Menubar />
         <Switch>
           <Route path="/contact" exact component={ContactPage} />
         </Switch>

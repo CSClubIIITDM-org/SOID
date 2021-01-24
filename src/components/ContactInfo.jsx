@@ -1,10 +1,10 @@
 import React from "react";
-import { Card, Button } from "react-bootstrap";
+// import { Card } from "react-bootstrap";
 
 const ContactInfo = () => {
   return (
     <React.Fragment>
-      <div>{document.body.classList.add("background")}</div>
+      {/* <div>{document.body.classList.add("background")}</div>
       <Card
         style={{
           width: "18rem",
@@ -26,7 +26,7 @@ const ContactInfo = () => {
             Director, SASI Creative Institute of Design, Formely with NID
           </Card.Text>
         </Card.Body>
-      </Card>
+      </Card> */}
     </React.Fragment>
   );
 };

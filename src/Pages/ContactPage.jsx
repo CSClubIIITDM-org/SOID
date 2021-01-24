@@ -1,14 +1,12 @@
 import React from "react";
-import Menubar from "../components/Menubar";
 import ContactInfo from "../components/ContactInfo";
-import { Container, Row, Col } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 
 const Contact = () => {
   return (
     <React.Fragment>
-      <Menubar />
-      <Container>
-        <Row style={{ marginTop: "80px" }}>
+      <div className="container-fluid bg mt-0">
+        <Row>
           <Col>
             <ContactInfo />
           </Col>
@@ -31,7 +29,7 @@ const Contact = () => {
             <ContactInfo />
           </Col>
         </Row>
-      </Container>
+      </div>
     </React.Fragment>
   );
 };
