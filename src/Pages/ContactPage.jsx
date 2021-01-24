@@ -20,7 +20,7 @@ const Contact = () => {
           </Col>
         </Row>
         <h1 className="contact-heading">Design Advisory Council</h1>
-        <Row>
+        <Row style={{ marginTop: "80px" }}>
           <Col>
             <ContactInfo />
           </Col>
