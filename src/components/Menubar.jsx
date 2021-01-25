@@ -1,30 +1,54 @@
 import React from "react";
-import Navbar from "react-bootstrap/Navbar";
-import Nav from "react-bootstrap/Nav";
-// import Jumbotron from "react-bootstrap/Jumbotron";
-// import Form  from "react-bootstrap/Form";
-// import FormControl from "react-bootstrap/FormControl";
-// import Button from "react-bootstrap/Button";
+import { Link } from "react-router-dom";
 
-function Menubar() {
+const Menubar = () => {
+  const links = [
+    {
+      name: "Courses",
+      link: "course",
+    },
+    {
+      name: "Research",
+      link: "research",
+    },
+    {
+      name: "Members",
+      link: "members",
+    },
+    {
+      name: "Contact",
+      link: "contact",
+    },
+  ];
+
   return (
-    
-    <Navbar className="navbar color-nav underline" collapseOnSelect expand="lg">
-      {/* <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand> */}
-      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-      <Navbar.Collapse id="responsive-navbar-nav">
-        <Nav className="ml-auto ">
-          <Nav.Link className="left" href="#about">About</Nav.Link>
-          <Nav.Link className="left" href="#about">About</Nav.Link>
-          <Nav.Link className="left" href="#about">About</Nav.Link>
-          <Nav.Link className="left" href="#about">About</Nav.Link>
-          <Nav.Link className="left" href="#about">About</Nav.Link>
-          <Nav.Link className="left" href="#about">About</Nav.Link>
-        </Nav>
-      </Navbar.Collapse>
-    </Navbar>
- 
+    <nav className="navbar navbar-expand-md bg-light navbar-light shadow-sm">
+      <a className="navbar-brand" href="/">
+        SOID
+      </a>
+
+      <button
+        className="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#collapsibleNavbar"
+      >
+        <span className="navbar-toggler-icon"></span>
+      </button>
+
+      <div className="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul className="navbar-nav ml-auto">
+          {links.map((link) => (
+            <li className="nav-item">
+              <Link className="nav-link" to={link.link}>
+                {link.name}
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </nav>
   );
-}
+};
 
 export default Menubar;

@@ -1,0 +1,10 @@
+$primaryColor: #ffe401;
+$secondaryColor: #ff652f;
+
+.bg {
+  background-color: $primaryColor;
+}
+
+.img-fliter {
+  filter: grayscale(100%);
+}
