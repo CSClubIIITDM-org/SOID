@@ -67,3 +67,18 @@
   color: #000000;
 }
 /*# sourceMappingURL=style.css.map */
+
+/* motivation component */
+
+.motiv-text{
+  display: inline-flex;
+  
+}
+
+.bg-dark {
+  background-color: #272727 !important;
+}
+
+.text-warning{
+ color: #ffe401 !important;
+}
