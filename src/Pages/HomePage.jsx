@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import AwesomeSlider from "react-awesome-slider";
+import Motivation from "../components/Motivation";
 
 const HomePage = () => {
   const [images] = useState([
@@ -35,6 +36,7 @@ const HomePage = () => {
           />
         </AwesomeSlider> */}
       </div>
+      <Motivation />
     </React.Fragment>
   );
 };
