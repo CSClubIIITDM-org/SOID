@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import AwesomeSlider from "react-awesome-slider";
 import Motivation from "../components/Motivation";
+import About from "../components/About";
+import Slider from "../components/Slider";
 
 const HomePage = () => {
   const [images] = useState([
@@ -20,22 +21,8 @@ const HomePage = () => {
 
   return (
     <React.Fragment>
-      <div className="container-fluid bg">
-        <AwesomeSlider>
-          <div data-src="http://www.madeit.iiitdm.ac.in/img/EDII-TN_Visit_MaDeIT.jpg" />
-          <div data-src="http://www.madeit.iiitdm.ac.in/img/EDII-TN_Visit_MaDeIT.jpg" />
-          <div data-src="http://www.madeit.iiitdm.ac.in/img/EDII-TN_Visit_MaDeIT.jpg" />
-        </AwesomeSlider>
-        {/* <AwesomeSlider animation="cubeAnimation">
-          {images.map((img) => (
-            <div data-src={img.img} className="img-filter" />
-          ))}
-          <div
-            data-src="http://www.madeit.iiitdm.ac.in/img/EDII-TN_Visit_MaDeIT.jpg"
-            className="img-filter"
-          />
-        </AwesomeSlider> */}
-      </div>
+      <Slider />
+      <About />
       <Motivation />
     </React.Fragment>
   );
