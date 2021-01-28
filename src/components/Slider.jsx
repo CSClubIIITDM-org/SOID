@@ -1,5 +1,5 @@
 import React from "react";
-import AwesomeSlider from "react-awesome-slider";
+// import AwesomeSlider from "react-awesome-slider";
 import "react-awesome-slider/dist/custom-animations/cube-animation.css";
 
 const Slider = () => {

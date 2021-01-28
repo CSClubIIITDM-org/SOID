@@ -4,7 +4,7 @@ import { faGraduationCap, faViruses } from "@fortawesome/free-solid-svg-icons";
 import Container from "react-bootstrap/Container";
 // // import Card from 'react-bootstrap/Card';
 
-function Motivation() {
+const Motivation = () => {
   return (
     <React.Fragment>
       <div className="bg-dark">
@@ -41,7 +41,7 @@ function Motivation() {
       </div>
     </React.Fragment>
   );
-}
+};
 
 export default Motivation;
 
