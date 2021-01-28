@@ -44,3 +44,87 @@ $primaryFont: "Raleway", sans-serif;
   padding: 75px;
   color: #000000;
 }
+
+/* Carousel component */
+
+.carousel-item:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.carousel-heading {
+  position: absolute;
+  width: 1041px;
+  height: 491px;
+  left: 200px;
+  top: 264px;
+
+  font-family: $primaryFont;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 96px;
+  line-height: 113px;
+  text-align: center;
+
+  color: $primaryColor;
+}
+
+/* motivation component */
+
+.motiv-text {
+  display: inline-flex;
+}
+
+.bg-dark {
+  background-color: #272727 !important;
+}
+
+.text-warning {
+  color: $primaryColor !important;
+}
+
+/* About section */
+
+.about-section {
+  padding: 0%;
+  margin: 0%;
+}
+
+.about-heading {
+  width: 588px;
+  height: 100px;
+  left: 134px;
+  top: 219px;
+  font-family: $primaryFont;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 55px;
+  line-height: 85px;
+  padding-left: 134px;
+  padding-top: 160px;
+  padding-bottom: 140px;
+  color: #000000;
+}
+
+.about-description {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  text-align: right;
+  line-height: 56px;
+  padding-bottom: 225px;
+  padding-right: 134px;
+  padding-left: 134px;
+  color: white;
+}
+
+.about-description span {
+  color: $primaryColor;
+}

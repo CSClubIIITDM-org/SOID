@@ -38,8 +38,8 @@ const Menubar = () => {
 
       <div className="collapse navbar-collapse" id="collapsibleNavbar">
         <ul className="navbar-nav ml-auto">
-          {links.map((link) => (
-            <li className="nav-item">
+          {links.map((link, index) => (
+            <li className="nav-item" key={index}>
               <Link className="nav-link" to={link.link}>
                 {link.name}
               </Link>

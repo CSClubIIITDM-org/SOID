@@ -7,12 +7,12 @@ import Container from "react-bootstrap/Container";
 function Motivation() {
   return (
     <React.Fragment>
-      <div className=" bg-dark">
+      <div className="bg-dark">
         <h4 className="text-warning text-center pb-5 pt-5">MOTIVATION</h4>
 
         <Container>
-          <div class="bg-dark shadow p-3 mb-5  rounded card text-white  mb-3">
-            <div class="motiv-text  card-body">
+          <div className="bg-dark shadow p-3 mb-5  rounded card text-white  mb-3">
+            <div className="motiv-text  card-body">
               <span className=" text-warning mt-2 ml-2 mb-2 mr-3 ">
                 <FontAwesomeIcon className="fa-5x" icon={faViruses} />
               </span>
@@ -25,8 +25,8 @@ function Motivation() {
         </Container>
 
         <Container className="pb-5">
-          <div class=" bg-dark shadow p-3 mb-5  rounded card text-white  mb-3">
-            <div class=" card-body">
+          <div className=" bg-dark shadow p-3 mb-5  rounded card text-white  mb-3">
+            <div className=" card-body">
               <span className="motiv-text  mt-2 ml-2 mb-2 ">
                 The National Educational policy 2020 that has created
                 posssibilities for developing student centric networks of
