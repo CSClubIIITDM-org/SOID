@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Motivation from "../components/Motivation";
 import About from "../components/About";
 import Slider from "../components/Slider";
-
+import News from "../components/News";
 const HomePage = () => {
   const [images] = useState([
     {
@@ -24,6 +24,7 @@ const HomePage = () => {
       <Slider />
       <About />
       <Motivation />
+      <News/>
     </React.Fragment>
   );
 };

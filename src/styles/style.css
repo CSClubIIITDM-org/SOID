@@ -151,3 +151,26 @@
 .about-description span {
   color: #ffe401;
 }
+
+/* 
+home news */
+
+.news-container {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #272727;
+}
+
+.bg-orange {
+  background-color: #ff652f;
+}
+
+.news{
+  font-size: 72px;
+}
+
+
+
