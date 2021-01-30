@@ -66,10 +66,8 @@
   padding: 75px;
   color: #000000;
 }
-/*# sourceMappingURL=style.css.map */
 
 /* Carousel component */
-
 .carousel-item:after {
   content: "";
   display: block;
@@ -87,20 +85,18 @@
   height: 491px;
   left: 200px;
   top: 264px;
-
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 96px;
-  line-height: 113px;
   text-align: center;
-
   color: #ffe401;
 }
 
 /* motivation component */
-
 .motiv-text {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
   display: inline-flex;
 }
 
@@ -113,22 +109,17 @@
 }
 
 /* About section */
-
 .about-section {
-  padding: 0%;
-  margin: 0%;
+  display: flex;
+  flex-direction: column;
 }
 
 .about-heading {
-  width: 588px;
   height: 100px;
-  left: 134px;
-  top: 219px;
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 55px;
-  line-height: 85px;
   padding-left: 134px;
   padding-top: 160px;
   padding-bottom: 140px;
@@ -141,7 +132,6 @@
   font-weight: 400;
   font-size: 40px;
   text-align: right;
-  line-height: 56px;
   padding-bottom: 225px;
   padding-right: 134px;
   padding-left: 134px;
@@ -152,6 +142,7 @@
   color: #ffe401;
 }
 
+<<<<<<< HEAD
 /* 
 home news */
 
@@ -174,3 +165,53 @@ home news */
 
 
 
+=======
+/* Objective section */
+
+.objective-title {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 72px;
+  padding-top: 30px;
+}
+
+.objective-button {
+  width: 355px;
+  height: 345px;
+  border-radius: 50%;
+  border: 10px solid #ff652f;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #272727;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.objective-button:focus {
+  outline: none;
+}
+
+.objective-button:hover {
+  background-color: #ff652f;
+}
+
+.modal_special {
+  background-color: #ff652f;
+}
+
+.modal_special p {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 45px;
+  text-align: center;
+}
+
+.no-border {
+  border: none;
+}
+/*# sourceMappingURL=style.css.map */
+>>>>>>> 57ff4d15413ad4a555dd39ae44100416264a155e
