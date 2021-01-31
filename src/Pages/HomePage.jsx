@@ -6,7 +6,8 @@ import Slider from "../components/Slider";
 import News from "../components/News";
 
 import Objective from "../components/Objective";
-
+import Research from "../components/Research";
+import Achievements from "../components/Achievements";
 
 const HomePage = () => {
   // const [images] = useState([
@@ -33,7 +34,7 @@ const HomePage = () => {
       <News/>
 
       <Objective />
-
+     
     </React.Fragment>
   );
 };

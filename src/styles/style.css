@@ -142,7 +142,7 @@
   color: #ffe401;
 }
 
-<<<<<<< HEAD
+
 /* 
 home news */
 
@@ -165,7 +165,7 @@ home news */
 
 
 
-=======
+
 /* Objective section */
 
 .objective-title {
@@ -214,4 +214,41 @@ home news */
   border: none;
 }
 /*# sourceMappingURL=style.css.map */
->>>>>>> 57ff4d15413ad4a555dd39ae44100416264a155e
+
+/* 
+research */
+
+.text-orange{
+  color: #ff652f;
+}
+
+.research li{
+  margin: 10px 0;
+  background-color: #ffe401;
+  color: #272727;
+}
+
+.research .btn{
+  background-color: #ffe401;
+  border-color: #ffe401;
+  color: #272727;
+}
+
+.dropdown-menu{
+  background-color: #747474;
+  color: white;
+  justify-content: center;
+}
+
+.dropdown-item{
+  color: white;
+}
+
+.bg-grey{
+  background-color:#747474 ;
+  
+}
+.text-dark{
+  color: #272727;
+}
+
