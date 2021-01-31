@@ -142,6 +142,30 @@
   color: #ffe401;
 }
 
+
+/* 
+home news */
+
+.news-container {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #272727;
+}
+
+.bg-orange {
+  background-color: #ff652f;
+}
+
+.news{
+  font-size: 72px;
+}
+
+
+
+
 /* Objective section */
 
 .objective-title {
@@ -190,3 +214,41 @@
   border: none;
 }
 /*# sourceMappingURL=style.css.map */
+
+/* 
+research */
+
+.text-orange{
+  color: #ff652f;
+}
+
+.research li{
+  margin: 10px 0;
+  background-color: #ffe401;
+  color: #272727;
+}
+
+.research .btn{
+  background-color: #ffe401;
+  border-color: #ffe401;
+  color: #272727;
+}
+
+.dropdown-menu{
+  background-color: #747474;
+  color: white;
+  justify-content: center;
+}
+
+.dropdown-item{
+  color: white;
+}
+
+.bg-grey{
+  background-color:#747474 ;
+  
+}
+.text-dark{
+  color: #272727;
+}
+

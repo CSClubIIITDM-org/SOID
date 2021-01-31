@@ -2,7 +2,12 @@ import React from "react";
 import Motivation from "../components/Motivation";
 import About from "../components/About";
 import Slider from "../components/Slider";
+
+import News from "../components/News";
+
 import Objective from "../components/Objective";
+import Research from "../components/Research";
+import Achievements from "../components/Achievements";
 
 const HomePage = () => {
   // const [images] = useState([
@@ -25,7 +30,11 @@ const HomePage = () => {
       <Slider />
       <About />
       <Motivation />
+
+      <News/>
+
       <Objective />
+     
     </React.Fragment>
   );
 };
