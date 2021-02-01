@@ -54,8 +54,11 @@ const footer = () => {
             <div className="row">
               <div className="col-sm-6">
                 <ul className="list-group">
-                  {links1.map((link) => (
-                    <li className="list-group-item bg-transparent border border-0">
+                  {links1.map((link, index) => (
+                    <li
+                      className="list-group-item bg-transparent border border-0"
+                      key={index}
+                    >
                       <Link to={link.link} className="text-light">
                         {link.name}
                       </Link>
@@ -65,8 +68,11 @@ const footer = () => {
               </div>
               <div className="col-sm-6">
                 <ul className="list-group">
-                  {links2.map((link) => (
-                    <li className="list-group-item bg-transparent text-light border border-0">
+                  {links2.map((link, index) => (
+                    <li
+                      className="list-group-item bg-transparent text-light border border-0"
+                      key={index}
+                    >
                       <Link to={link.link} className="text-light">
                         {link.name}
                       </Link>

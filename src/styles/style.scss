@@ -11,11 +11,6 @@ $primaryFont: "Raleway", sans-serif;
   scroll-behavior: smooth;
   font-family: $primaryFont;
 }
-.card,
-.nav-link,
-.navbar-brand {
-  font-family: $primaryFont;
-}
 
 .navbar-light {
   background-color: $primaryColor !important;
@@ -57,22 +52,6 @@ $primaryFont: "Raleway", sans-serif;
   left: 0;
   right: 0;
   background: rgba(0, 0, 0, 0.7);
-}
-
-.carousel-heading {
-  position: absolute;
-  width: 1041px;
-  height: 491px;
-  left: 200px;
-  top: 264px;
-  font-family: $primaryFont;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 96px;
-  line-height: 113px;
-  text-align: center;
-
-  color: $primaryColor;
 }
 
 /* motivation component */
@@ -141,30 +120,27 @@ $primaryFont: "Raleway", sans-serif;
   width: 355px;
   height: 345px;
   border-radius: 50%;
-  border: 10px solid #ff652f;
+  border: 10px solid $secondaryColor;
   text-align: center;
   text-transform: uppercase;
   background-color: #272727;
   font-weight: 500;
   font-size: 25px;
-}
-
-.objective-button:focus {
-  outline: none;
-}
-
-.objective-button:hover {
-  background-color: #ff652f;
+  &:focus {
+    outline: none;
+  }
+  &:hover {
+    background-color: $secondaryColor;
+  }
 }
 
 .modal_special {
-  background-color: #ff652f;
-}
-
-.modal_special p {
-  font-weight: 500;
-  font-size: 45px;
-  text-align: center;
+  background-color: $secondaryColor;
+  p {
+    font-weight: 500;
+    font-size: 45px;
+    text-align: center;
+  }
 }
 
 .no-border {

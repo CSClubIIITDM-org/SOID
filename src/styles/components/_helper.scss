@@ -12,3 +12,11 @@ $secondaryColor: #ff652f;
 .bg-transparent {
   background-color: transparent !important;
 }
+
+.text-primary {
+  color: $primaryColor !important;
+}
+
+.text-secondary {
+  color: $secondaryColor !important;
+}

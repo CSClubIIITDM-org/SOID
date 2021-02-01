@@ -12,6 +12,14 @@
   background-color: transparent !important;
 }
 
+.text-primary {
+  color: #ffe401 !important;
+}
+
+.text-secondary {
+  color: #ff652f !important;
+}
+
 .aws-btn {
   --slider-height-percentage: 60%;
   --slider-transition-duration: 770ms;
@@ -30,12 +38,6 @@
 
 * {
   scroll-behavior: smooth;
-  font-family: "Raleway", sans-serif;
-}
-
-.card,
-.nav-link,
-.navbar-brand {
   font-family: "Raleway", sans-serif;
 }
 
@@ -82,21 +84,6 @@
   left: 0;
   right: 0;
   background: rgba(0, 0, 0, 0.7);
-}
-
-.carousel-heading {
-  position: absolute;
-  width: 1041px;
-  height: 491px;
-  left: 200px;
-  top: 264px;
-  font-family: "Raleway", sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 96px;
-  line-height: 113px;
-  text-align: center;
-  color: #ffe401;
 }
 
 /* motivation component */
