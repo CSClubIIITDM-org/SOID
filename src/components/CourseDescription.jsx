@@ -5,7 +5,7 @@ const CourseDes = (props) => {
     <React.Fragment>
       <li>
         <div className="timeline-icon">
-          <a href="javascript:;" className="inner-circle">
+          <a href="#!" className="inner-circle">
             &nbsp;
           </a>
         </div>

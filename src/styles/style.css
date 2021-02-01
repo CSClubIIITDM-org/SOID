@@ -1,17 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-
-body {
-  font-family: Raleway;
-  font-style: normal;
-}
-
 .bg {
   background-color: #ffe401;
 }
 
 .img-fliter {
   -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+.bg-transparent {
+  background-color: transparent !important;
 }
 
 .aws-btn {
@@ -32,6 +30,7 @@ body {
 
 * {
   scroll-behavior: smooth;
+  font-family: "Raleway", sans-serif;
 }
 
 .card,
@@ -95,6 +94,7 @@ body {
   font-style: normal;
   font-weight: bold;
   font-size: 96px;
+  line-height: 113px;
   text-align: center;
   color: #ffe401;
 }
@@ -116,14 +116,20 @@ body {
 
 /* About section */
 .about-section {
-  display: flex;
-  flex-direction: column;
+  padding: 0%;
+  margin: 0%;
 }
 
 .about-heading {
+  width: 588px;
   height: 100px;
+  left: 134px;
+  top: 219px;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
   font-weight: 600;
   font-size: 55px;
+  line-height: 85px;
   padding-left: 134px;
   padding-top: 160px;
   padding-bottom: 140px;
@@ -131,9 +137,12 @@ body {
 }
 
 .about-description {
+  font-family: Raleway;
+  font-style: normal;
   font-weight: 400;
   font-size: 40px;
   text-align: right;
+  line-height: 56px;
   padding-bottom: 225px;
   padding-right: 134px;
   padding-left: 134px;
@@ -145,7 +154,6 @@ body {
 }
 
 /* Objective section */
-
 .objective-title {
   font-weight: 800;
   font-size: 72px;
@@ -187,7 +195,6 @@ body {
 }
 
 /* Courses section */
-
 .course-heading {
   font-weight: 900;
   font-size: 72px;
@@ -202,7 +209,7 @@ body {
   position: relative;
 }
 
-.timeline:before {
+.timeline::before {
   content: "";
   position: absolute;
   top: 5px;
@@ -237,12 +244,9 @@ body {
   line-height: 10px;
   font-size: 14px;
   border: 5px solid #ff652f;
+  -webkit-transition: border-color 0.2s linear;
   transition: border-color 0.2s linear;
 }
-
-/* .timeline .timeline-icon .outer-circle {
-
-} */
 
 .timeline p {
   font-weight: normal;
@@ -250,11 +254,16 @@ body {
   line-height: 42px;
 }
 
+.timeline p span {
+  color: #ff652f;
+}
+
 .timeline h1 {
   font-weight: bold;
   font-size: 72px;
   line-height: 85px;
-  text-decoration-line: underline;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
 }
 
 .content-left {
@@ -265,10 +274,6 @@ body {
 .content-right {
   margin-left: 60%;
   text-align: left;
-}
-
-.timeline p span {
-  color: #ff652f;
 }
 
 /* Footer-section */
@@ -283,6 +288,7 @@ body {
   line-height: 100px;
   text-align: center;
   color: #000000;
-  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
 }
 /*# sourceMappingURL=style.css.map */

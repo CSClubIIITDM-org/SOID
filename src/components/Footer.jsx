@@ -1,6 +1,48 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const footer = () => {
+  const links1 = [
+    {
+      name: "Home",
+      link: "/",
+    },
+    {
+      name: "About",
+      link: "/",
+    },
+    {
+      name: "Design advicory council",
+      link: "/",
+    },
+    {
+      name: "Motivation",
+      link: "/",
+    },
+    {
+      name: "Courses",
+      link: "/",
+    },
+  ];
+
+  const links2 = [
+    {
+      name: "Research Areas",
+      link: "/",
+    },
+    {
+      name: "Facilities",
+      link: "/",
+    },
+    {
+      name: "Achievements",
+      link: "/",
+    },
+    {
+      name: "News & Events",
+      link: "/",
+    },
+  ];
   return (
     <React.Fragment>
       <div className="bg-secondary">
@@ -8,40 +50,32 @@ const footer = () => {
           <h1>SIDI</h1>
         </div>
         <div>
-          <ul>
-            <li>
-              <a>Home</a>
-            </li>
-            <li>
-              <a>About</a>
-            </li>
-            <li>
-              <a>Design advicory council</a>
-            </li>
-            <li>
-              <a>Motivation</a>
-            </li>
-            <li>
-              <a>Objectives</a>
-            </li>
-          </ul>
-          <ul>
-            <li>
-              <a>Courses </a>
-            </li>
-            <li>
-              <a>Research Areas </a>
-            </li>
-            <li>
-              <a>Facilities </a>
-            </li>
-            <li>
-              <a>Achievements</a>
-            </li>
-            <li>
-              <a>News & Events</a>
-            </li>
-          </ul>
+          <div className="container pb-5">
+            <div className="row">
+              <div className="col-sm-6">
+                <ul className="list-group">
+                  {links1.map((link) => (
+                    <li className="list-group-item bg-transparent border border-0">
+                      <Link to={link.link} className="text-light">
+                        {link.name}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+              <div className="col-sm-6">
+                <ul className="list-group">
+                  {links2.map((link) => (
+                    <li className="list-group-item bg-transparent text-light border border-0">
+                      <Link to={link.link} className="text-light">
+                        {link.name}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </React.Fragment>

@@ -9,6 +9,7 @@ $primaryFont: "Raleway", sans-serif;
 
 * {
   scroll-behavior: smooth;
+  font-family: $primaryFont;
 }
 .card,
 .nav-link,
@@ -64,7 +65,6 @@ $primaryFont: "Raleway", sans-serif;
   height: 491px;
   left: 200px;
   top: 264px;
-
   font-family: $primaryFont;
   font-style: normal;
   font-weight: bold;
@@ -127,4 +127,135 @@ $primaryFont: "Raleway", sans-serif;
 
 .about-description span {
   color: $primaryColor;
+}
+
+/* Objective section */
+
+.objective-title {
+  font-weight: 800;
+  font-size: 72px;
+  padding-top: 30px;
+}
+
+.objective-button {
+  width: 355px;
+  height: 345px;
+  border-radius: 50%;
+  border: 10px solid #ff652f;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #272727;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.objective-button:focus {
+  outline: none;
+}
+
+.objective-button:hover {
+  background-color: #ff652f;
+}
+
+.modal_special {
+  background-color: #ff652f;
+}
+
+.modal_special p {
+  font-weight: 500;
+  font-size: 45px;
+  text-align: center;
+}
+
+.no-border {
+  border: none;
+}
+
+/* Courses section */
+
+.course-heading {
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 85px;
+  text-align: center;
+}
+
+.timeline {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    bottom: 5px;
+    width: 3px;
+    background: white;
+    left: 50%;
+    margin-left: -2.5px;
+  }
+  > li {
+    position: relative;
+    min-height: 50px;
+    padding: 20px 0px;
+  }
+  .timeline-icon {
+    left: 45%;
+    position: absolute;
+    text-align: center;
+    width: 10%;
+    top: 40px;
+    .inner-circle {
+      text-decoration: none;
+      width: 40px;
+      height: 40px;
+      display: inline-block;
+      border-radius: 40px;
+      background: $secondaryColor;
+      line-height: 10px;
+      font-size: 14px;
+      border: 5px solid $secondaryColor;
+      transition: border-color 0.2s linear;
+    }
+  }
+  p {
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    span {
+      color: $secondaryColor;
+    }
+  }
+  h1 {
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 85px;
+    text-decoration-line: underline;
+  }
+}
+
+.content-left {
+  margin-right: 60%;
+  text-align: right;
+}
+
+.content-right {
+  margin-left: 60%;
+  text-align: left;
+}
+
+/* Footer-section */
+.footer-heading {
+  position: relative;
+  width: 150px;
+  height: 90px;
+  left: 0%;
+  top: 15px;
+  font-weight: 500;
+  font-size: 96px;
+  line-height: 100px;
+  text-align: center;
+  color: #000000;
+  transform: rotate(-90deg);
 }
