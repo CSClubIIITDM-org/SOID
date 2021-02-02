@@ -1,7 +1,7 @@
 import React from "react";
 import favicon from "../images/favicon.ico";
 import Container from "react-bootstrap/Container";
-import { Button, Row, Col, Image, Card, Carousel } from "react-bootstrap";
+import {  Row, Col, Card } from "react-bootstrap";
 import Media from 'react-bootstrap/Media'
 
 

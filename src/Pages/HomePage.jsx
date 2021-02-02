@@ -2,11 +2,10 @@ import React from "react";
 import Motivation from "../components/Motivation";
 import About from "../components/About";
 import Slider from "../components/Slider";
-import Achievements from "../components/Achievements";
+
 import News from "../components/News";
 import Objective from "../components/Objective";
-import Research from "../components/Research";
-import ResContent from "../components/ResContent";
+
 
 const HomePage = () => {
   return (
