@@ -8,7 +8,7 @@ import Courses from "./components/Courses";
 import Footer from "./components/Footer";
 import ResearchPage from "./Pages/ResearchPage";
 
-function App() {
+const App = () => {
   return (
     <React.Fragment>
       <BrowserRouter>
@@ -23,6 +23,6 @@ function App() {
       </BrowserRouter>
     </React.Fragment>
   );
-}
+};
 
 export default App;
