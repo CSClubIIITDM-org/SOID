@@ -1,18 +1,21 @@
 import React from "react";
 
-import Carousel from 'react-elastic-carousel';
+import Carousel from "react-elastic-carousel";
 
 import Container from "react-bootstrap/Container";
+
 import Card from 'react-bootstrap/Card';
 import { Modal } from "react-bootstrap";
 import favicon from "../images/favicon.ico";
 
+
 const breakPoints = [
-    { width: 1, itemsToShow: 1 },
-    { width: 550, itemsToShow: 2, itemsToScroll: 2 },
-    { width: 768, itemsToShow: 3 },
-    { width: 1200, itemsToShow: 3 }
-  ];
+  { width: 1, itemsToShow: 1 },
+  { width: 550, itemsToShow: 2, itemsToScroll: 2 },
+  { width: 768, itemsToShow: 3 },
+  { width: 1200, itemsToShow: 3 },
+];
+
 
 
   function NewsModal(props){
@@ -175,10 +178,10 @@ function News() {
             onHide={() => setModalShow(false)}
           />
       </Carousel>
-      </Container>
-      </div>
 
-    );
-}
+      </Container>
+    </div>
+  );
+};
 
 export default News;
