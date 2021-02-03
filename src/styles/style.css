@@ -357,8 +357,44 @@ research */
           transform: rotate(-90deg);
 }
 
+/* new and events pagination and arrow */
+
+.cJeRRR{
+  box-shadow: 0 0 1px 3px #ff652f !important;
+  background-color: white !important;
+}
+
+.cJeRRR:hover, .cJeRRR:focus {
+  cursor: pointer;
+  box-shadow: 0 0 1px 3px white;
+}
 
 
+.cJeRRR:hover, .cJeRRR:focus {
+  cursor: pointer;
+  box-shadow: 0 0 1px 3px #ff652f !important;
+  background-color: #ff652f ;
+}
+
+.lgksPe{
+  background-color: #ff652f !important;
+}
+
+.iLquPE{
+  background-color: #ff652f !important;
+}
+
+
+
+.news-modal {
+  background-color: #747474;
+}
+
+.news-modal p {
+  font-weight: 500;
+  font-size: 35px;
+  text-align: center;
+}
 
 
 /*# sourceMappingURL=style.css.map */
