@@ -28,14 +28,14 @@ const breakPoints = [
           <h4 className="text-center text-dark">NEWS TITLE : NEWS TITLE</h4>
         </Modal.Header>
         <Modal.Body>
-        <a>
+        
                 <img 
                     width={100}
                     height={100}
                     className="mr-3 rounded mx-auto d-block"
                     src={favicon}
                     alt="Generic placeholder"
-                /></a>
+                />
           <p style={{ padding: "20px" }}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere
         erat a ante.
