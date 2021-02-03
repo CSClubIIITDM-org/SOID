@@ -9,71 +9,72 @@ const footer = () => {
     },
     {
       name: "About",
-      link: "/",
+      link: "/home/#about",
     },
     {
       name: "Design advicory council",
-      link: "/",
+      link: "/contact",
     },
     {
       name: "Motivation",
-      link: "/",
+      link: "/motivation",
     },
     {
       name: "Courses",
-      link: "/",
+      link: "/course",
     },
   ];
 
   const links2 = [
     {
       name: "Research Areas",
-      link: "/",
+      link: "/researchareas",
     },
     {
       name: "Facilities",
-      link: "/",
+      link: "/facilities",
     },
     {
       name: "Achievements",
-      link: "/",
+      link: "/research/#achievments",
     },
     {
       name: "News & Events",
-      link: "/",
+      link: "/news",
     },
   ];
   return (
     <React.Fragment>
-      <div className="bg-secondary">
-        <div className="footer-heading ">
+      <div className="bg-secondary ">
+        <div className="footer-heading">
           <h1>SIDI</h1>
         </div>
         <div>
           <div className="container pb-5">
-            <div className="row">
-              <div className="col-sm-6">
+            <div className="row footer-link">
+              <div className="col-sm-6 text-right">
                 <ul className="list-group">
                   {links1.map((link, index) => (
                     <li
                       className="list-group-item bg-transparent border border-0"
                       key={index}
                     >
-                      <Link to={link.link} className="text-light">
+                      <Link to={link.link} className="link">
                         {link.name}
                       </Link>
                     </li>
                   ))}
                 </ul>
               </div>
-              <div className="col-sm-6">
+              <span className="seprator"></span>
+              <div className="col-sm-6 text-left">
                 <ul className="list-group">
                   {links2.map((link, index) => (
                     <li
-                      className="list-group-item bg-transparent text-light border border-0"
+                      className="list-group-item bg-transparent border border-0"
                       key={index}
                     >
-                      <Link to={link.link} className="text-light">
+                      <Link to={link.link} className="link">
                         {link.name}
                       </Link>
                     </li>
@@ -81,6 +82,11 @@ const footer = () => {
                 </ul>
               </div>
             </div>
+          </div>
+        </div>
+        <div>
+          <div class="footer-contact">
+            For enquiries, contact us : gmailid@gmail.com{" "}
           </div>
         </div>
       </div>

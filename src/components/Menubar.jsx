@@ -4,6 +4,10 @@ import { Link } from "react-router-dom";
 const Menubar = () => {
   const links = [
     {
+      name: "Home",
+      link: "/",
+    },
+    {
       name: "Courses",
       link: "course",
     },
@@ -18,6 +22,10 @@ const Menubar = () => {
     {
       name: "Contact",
       link: "contact",
+    },
+    {
+      name: "Facilities",
+      link: "facilities",
     },
   ];
 
