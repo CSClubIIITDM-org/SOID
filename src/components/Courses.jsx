@@ -31,11 +31,11 @@ const Courses = () => {
 
   return (
     <div
-      class="container-fluid text-white"
+      className="container-fluid text-white"
       style={{ backgroundColor: "black" }}
     >
       <h1 className="course-heading p-5">COURSES</h1>
-      <ul class="timeline">
+      <ul className="timeline">
         <div className="content-left">
           <p>
             A <span> basic module of six courses (18 credits)</span> in product
@@ -44,15 +44,14 @@ const Courses = () => {
             undergraduate engineering students joining IIITDM
           </p>
         </div>
-        {courseInfo.map((course) => {
-          return (
-            <CourseDes
-              level={course.level}
-              info={course.info}
-              align={course.align}
-            />
-          );
-        })}
+        {courseInfo.map((course) => (
+          <CourseDes
+            key={course.level}
+            level={course.level}
+            info={course.info}
+            align={course.align}
+          />
+        ))}
       </ul>
     </div>
   );
