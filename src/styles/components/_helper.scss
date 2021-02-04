@@ -35,3 +35,10 @@ $secondaryColor: #ff652f;
 .bg-orange {
   background-color: $secondaryColor;
 }
+.bg-dark {
+  background-color: #272727 !important;
+}
+
+.text-warning {
+  color: $primaryColor !important;
+}

@@ -36,6 +36,14 @@
   background-color: #ff652f;
 }
 
+.bg-dark {
+  background-color: #272727 !important;
+}
+
+.text-warning {
+  color: #ffe401 !important;
+}
+
 .aws-btn {
   --slider-height-percentage: 60%;
   --slider-transition-duration: 770ms;
@@ -107,14 +115,6 @@
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
-}
-
-.bg-dark {
-  background-color: #272727 !important;
-}
-
-.text-warning {
-  color: #ffe401 !important;
 }
 
 /* About section */
@@ -226,7 +226,7 @@
 .timeline > li {
   position: relative;
   min-height: 50px;
-  padding: 20px 0px;
+  padding: 15px 0px;
 }
 
 .timeline .timeline-icon {
@@ -253,7 +253,7 @@
 
 .timeline p {
   font-weight: normal;
-  font-size: 36px;
+  font-size: 20px;
   line-height: 42px;
 }
 
@@ -263,19 +263,19 @@
 
 .timeline h1 {
   font-weight: bold;
-  font-size: 72px;
+  font-size: 50px;
   line-height: 85px;
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
 }
 
 .content-left {
-  margin-right: 60%;
+  margin-right: 55%;
   text-align: right;
 }
 
 .content-right {
-  margin-left: 60%;
+  margin-left: 55%;
   text-align: left;
 }
 
