@@ -8,12 +8,15 @@ const ResContent = () => {
   return (
     <div className="res-container bg-dark">
       <Container>
-        <h4 className="news text-orange text-center pb-5 pt-5">Facilities</h4>
+        <h4 className="news text-orange text-center pb-5 pt-5 facility-heading">
+          Facilities
+        </h4>
 
-        <p className="text-light text-center">
+        <p className="text-light text-center pb-3 facility-description">
           The design studio "Ground Zero " along with the research labs such as
-          Bird and Smile provide the necessary technical infrastructure to
-          support student learning and experimentation
+          <a className="text-warning"> BIRD</a> and{" "}
+          <a className="text-warning"> SMILE</a> provide the necessary technical
+          infrastructure to support student learning and experimentation
         </p>
 
         <Row className="mb-5">
@@ -41,7 +44,7 @@ const ResContent = () => {
           </Col>
         </Row>
 
-        <Media className="pb-3 mb-5">
+        <Media className="pt-5 pb-5">
           <a href="https://github.com/WebOpsIIITDMK/SOID">
             <img
               width={150}
@@ -52,19 +55,26 @@ const ResContent = () => {
             />
           </a>
           <Media.Body>
-            <p className="text-light">
+            <p className="text-light" style={{ fontSize: "25px" }}>
               SIDI’s activities are also tightly integrated with the incubator
-              “MaDeIT Innovation Foundation” to facilitate translation of
-              student-led innovations into entrepreneurial ventures. SIDI along
-              with MaDeIT have also cultivated a network of industry experts to
-              mentor students at different stages of the program.
+              <a className="text-warning">
+                {" "}
+                “MaDeIT Innovation Foundation”{" "}
+              </a>{" "}
+              to facilitate translation of student-led innovations into
+              entrepreneurial ventures. SIDI along with MaDeIT have also
+              cultivated a network of industry experts to mentor students at
+              different stages of the program.
             </p>
           </Media.Body>
         </Media>
 
-        <Media className="pb-5  mb-5">
+        <Media className="pt-5 pb-5 ">
           <Media.Body>
-            <p className="text-light">
+            <p
+              className="text-light text-right p-0"
+              style={{ fontSize: "25px" }}
+            >
               One of the flagship events organized by SIDI and MaDeIT is the
               bi-annual industry open house called “EHIPASSIKO”. SIDI, MaDeIT
               and the Institute Innovation Council work together to create an
@@ -72,8 +82,13 @@ const ResContent = () => {
               among students, faculty, and industry partners.
             </p>
           </Media.Body>
-          <div className="ehipassiko">
-            <h1 className="text-center">EHIPASSIKO</h1>
+          <div className="ehipassiko pb-5 pt-5">
+            <h1
+              className="text-center "
+              style={{ fontSize: "40px", fontWeight: "600" }}
+            >
+              EHIPASSIKO
+            </h1>
           </div>
         </Media>
       </Container>

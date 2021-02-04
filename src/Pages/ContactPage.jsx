@@ -4,7 +4,10 @@ import ContactInfo from "../components/ContactInfo";
 const Contact = () => {
   return (
     <React.Fragment>
-      <div className="container-fluid bg mt-0 pb-5">
+      <div
+        id={"#designadvisorycouncil"}
+        className="container-fluid bg mt-0 pb-5"
+      >
         <div className="row px-5 pt-5">
           <div className="col-sm-4 px-5">
             <ContactInfo />
