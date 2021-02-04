@@ -85,7 +85,7 @@ const footer = () => {
           </div>
         </div>
         <div>
-          <div class="footer-contact">
+          <div className="footer-contact">
             For enquiries, contact us : gmailid@gmail.com{" "}
           </div>
         </div>

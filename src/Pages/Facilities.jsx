@@ -14,9 +14,17 @@ const ResContent = () => {
 
         <p className="text-light text-center pb-3 facility-description">
           The design studio "Ground Zero " along with the research labs such as
-          <a className="text-warning"> BIRD</a> and{" "}
-          <a className="text-warning"> SMILE</a> provide the necessary technical
-          infrastructure to support student learning and experimentation
+          <a className="text-warning" href="#!">
+            {" "}
+            BIRD
+          </a>{" "}
+          and{" "}
+          <a className="text-warning" href="#!">
+            {" "}
+            SMILE
+          </a>{" "}
+          provide the necessary technical infrastructure to support student
+          learning and experimentation
         </p>
 
         <Row className="mb-5">
@@ -57,7 +65,7 @@ const ResContent = () => {
           <Media.Body>
             <p className="text-light" style={{ fontSize: "25px" }}>
               SIDI’s activities are also tightly integrated with the incubator
-              <a className="text-warning">
+              <a className="text-warning" href="#!">
                 {" "}
                 “MaDeIT Innovation Foundation”{" "}
               </a>{" "}
@@ -82,7 +90,7 @@ const ResContent = () => {
               among students, faculty, and industry partners.
             </p>
           </Media.Body>
-          <div className="ehipassiko pb-5 pt-5">
+          <div className="ehipassiko pb-5 pt-5 text-warning">
             <h1
               className="text-center "
               style={{ fontSize: "40px", fontWeight: "600" }}

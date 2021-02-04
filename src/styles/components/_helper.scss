@@ -20,3 +20,18 @@ $secondaryColor: #ff652f;
 .text-secondary {
   color: $secondaryColor !important;
 }
+
+.bg-grey {
+  background-color: #747474;
+}
+
+.text-dark {
+  color: #272727;
+}
+.text-orange {
+  color: $secondaryColor;
+}
+
+.bg-orange {
+  background-color: $secondaryColor;
+}

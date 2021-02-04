@@ -16,10 +16,10 @@ const App = () => {
         <Menubar />
         <Switch>
           <Route path="/" exact component={HomePage} />
-          <Route path="/contact" exact component={ContactPage} />
+          <Route path="/members" exact component={ContactPage} />
           <Route path="/course" exact component={Courses} />
           <Route path="/research" exact component={ResearchPage} />
-          <Route path="/Facilities" exact component={Facilities} />
+          <Route path="/facilities" exact component={Facilities} />
         </Switch>
         <Footer />
       </BrowserRouter>

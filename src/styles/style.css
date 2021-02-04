@@ -5,7 +5,7 @@
 
 .img-fliter {
   -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
+          filter: grayscale(100%);
 }
 
 .bg-transparent {
@@ -18,6 +18,22 @@
 
 .text-secondary {
   color: #ff652f !important;
+}
+
+.bg-grey {
+  background-color: #747474;
+}
+
+.text-dark {
+  color: #272727;
+}
+
+.text-orange {
+  color: #ff652f;
+}
+
+.bg-orange {
+  background-color: #ff652f;
 }
 
 .aws-btn {
@@ -184,7 +200,7 @@
 /* Courses section */
 .course-heading {
   font-weight: 900;
-  font-size: 50px;
+  font-size: 72px;
   line-height: 85px;
   text-align: center;
 }
@@ -223,10 +239,10 @@
 
 .timeline .timeline-icon .inner-circle {
   text-decoration: none;
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   display: inline-block;
-  border-radius: 30px;
+  border-radius: 40px;
   background: #ff652f;
   line-height: 10px;
   font-size: 14px;
@@ -237,7 +253,7 @@
 
 .timeline p {
   font-weight: normal;
-  font-size: 25px;
+  font-size: 36px;
   line-height: 42px;
 }
 
@@ -247,32 +263,36 @@
 
 .timeline h1 {
   font-weight: bold;
-  font-size: 45px;
+  font-size: 72px;
   line-height: 85px;
   -webkit-text-decoration-line: underline;
-  text-decoration-line: underline;
+          text-decoration-line: underline;
 }
 
 .content-left {
-  margin-right: 55%;
+  margin-right: 60%;
   text-align: right;
 }
 
 .content-right {
-  margin-left: 55%;
+  margin-left: 60%;
   text-align: left;
 }
 
 /* Footer-section */
 .footer-heading {
-  display: flex;
+  position: relative;
   width: 150px;
   height: 90px;
+  left: 0%;
+  top: 15px;
   font-weight: 500;
-  font-size: 120px;
+  font-size: 96px;
+  line-height: 100px;
+  text-align: center;
   color: #000000;
   -webkit-transform: rotate(-90deg);
-  transform: rotate(-90deg);
+          transform: rotate(-90deg);
 }
 
 .footer-link {
@@ -290,7 +310,6 @@
   border: 1px solid #ffffff;
   transform: rotate(89.79deg);
 } */
-
 .footer-contact {
   font-weight: bold;
   font-size: 20px;
@@ -298,20 +317,22 @@
   text-align: center;
   color: white;
 }
+
 /* 
 home news */
-
 .news-container {
   font-family: sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   height: 100vh;
   background-color: #272727;
-}
-
-.bg-orange {
-  background-color: #ff652f;
 }
 
 .news {
@@ -320,7 +341,6 @@ home news */
 }
 
 /* research */
-
 .research-heading {
   font-weight: bold;
   font-size: 50px;
@@ -341,10 +361,6 @@ home news */
   text-align: center;
 }
 
-.text-orange {
-  color: #ff652f;
-}
-
 .research button {
   background-color: #ffe401;
   color: #272727;
@@ -359,27 +375,58 @@ home news */
   color: #272727;
 }
 
-.bg-grey {
+.ehipassiko {
+  position: relative;
+  color: "Raleway", sans-serif;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+.cJeRRR {
+  -webkit-box-shadow: 0 0 1px 3px #ff652f !important;
+          box-shadow: 0 0 1px 3px #ff652f !important;
+  background-color: white !important;
+}
+
+.cJeRRR:hover,
+.cJeRRR:focus {
+  cursor: pointer;
+  -webkit-box-shadow: 0 0 1px 3px white;
+          box-shadow: 0 0 1px 3px white;
+}
+
+.cJeRRR:hover,
+.cJeRRR:focus {
+  cursor: pointer;
+  -webkit-box-shadow: 0 0 1px 3px #ff652f !important;
+          box-shadow: 0 0 1px 3px #ff652f !important;
+  background-color: #ff652f;
+}
+
+.lgksPe {
+  background-color: #ff652f !important;
+}
+
+.iLquPE {
+  background-color: #ff652f !important;
+}
+
+.facility-heading {
+  font-weight: 600;
+  font-size: 50px;
+}
+
+.news-modal {
   background-color: #747474;
 }
 
-.text-dark {
-  color: #272727;
+.news-modal p {
+  font-weight: 500;
+  font-size: 35px;
+  text-align: center;
 }
 
-.ehipassiko {
-  position: relative;
-  color: #ffe401;
-  -webkit-transform: rotate(-90deg);
-  transform: rotate(-90deg);
-}
-
-
-
-.ehipassiko {
-  position: relative;
-  color: #ffe401;
-  -webkit-transform: rotate(90deg);
-  transform: rotate(90deg);
+.facility-description {
+  font-size: 25px;
 }
 /*# sourceMappingURL=style.css.map */

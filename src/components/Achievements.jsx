@@ -12,10 +12,14 @@ function Achievements() {
         <h4 className="news text-orange text-center pb-5 ">Achievements</h4>
         <Carousel itemsToShow={1} itemPadding={[10, 10]}>
           <Card className="bg-grey text-dark text-center p-3">
-            <Card.Img variant="top" src="#" />
+            {/* <Card.Img variant="top" src="#" /> */}
             <Card.Body>
               <Card.Text className="text-light">
-                sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+                posuere erat a ante. Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor
+                sit amet, consectetur adipiscing elit. Integer posuere erat a
+                ante.{" "}
               </Card.Text>
             </Card.Body>
           </Card>

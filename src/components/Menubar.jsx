@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Menubar = () => {
   const links = [
@@ -16,17 +16,17 @@ const Menubar = () => {
       link: "research",
     },
     {
-      name: "Members",
-      link: "members",
-    },
-    {
-      name: "Contact",
-      link: "contact",
-    },
-    {
       name: "Facilities",
       link: "facilities",
     },
+    {
+      name: "Members",
+      link: "members",
+    },
+    // {
+    //   name: "Contact",
+    //   link: "contact",
+    // },
   ];
 
   return (
@@ -48,9 +48,9 @@ const Menubar = () => {
         <ul className="navbar-nav ml-auto">
           {links.map((link, index) => (
             <li className="nav-item" key={index}>
-              <Link className="nav-link" to={link.link}>
+              <NavLink className="nav-link" exact to={link.link}>
                 {link.name}
-              </Link>
+              </NavLink>
             </li>
           ))}
         </ul>
