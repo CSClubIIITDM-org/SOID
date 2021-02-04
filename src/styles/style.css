@@ -374,16 +374,7 @@ home news */
   transform: rotate(-90deg);
 }
 
-/* Facility-section */
 
-.facility-heading {
-  font-weight: 600;
-  font-size: 50px;
-}
-
-.facility-description {
-  font-size: 25px;
-}
 
 .ehipassiko {
   position: relative;
