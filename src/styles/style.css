@@ -20,6 +20,30 @@
   color: #ff652f !important;
 }
 
+.bg-grey {
+  background-color: #747474;
+}
+
+.text-dark {
+  color: #272727;
+}
+
+.text-orange {
+  color: #ff652f;
+}
+
+.bg-orange {
+  background-color: #ff652f;
+}
+
+.bg-dark {
+  background-color: #272727 !important;
+}
+
+.text-warning {
+  color: #ffe401 !important;
+}
+
 .aws-btn {
   --slider-height-percentage: 60%;
   --slider-transition-duration: 770ms;
@@ -91,14 +115,6 @@
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
-}
-
-.bg-dark {
-  background-color: #272727 !important;
-}
-
-.text-warning {
-  color: #ffe401 !important;
 }
 
 /* About section */
@@ -210,7 +226,7 @@
 .timeline > li {
   position: relative;
   min-height: 50px;
-  padding: 20px 0px;
+  padding: 15px 0px;
 }
 
 .timeline .timeline-icon {
@@ -237,7 +253,7 @@
 
 .timeline p {
   font-weight: normal;
-  font-size: 36px;
+  font-size: 20px;
   line-height: 42px;
 }
 
@@ -247,19 +263,19 @@
 
 .timeline h1 {
   font-weight: bold;
-  font-size: 72px;
+  font-size: 50px;
   line-height: 85px;
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
 }
 
 .content-left {
-  margin-right: 60%;
+  margin-right: 55%;
   text-align: right;
 }
 
 .content-right {
-  margin-left: 60%;
+  margin-left: 55%;
   text-align: left;
 }
 
@@ -279,112 +295,126 @@
           transform: rotate(-90deg);
 }
 
+.footer-link {
+  font-weight: 500;
+  font-size: 23px;
+}
 
+.footer-link .link {
+  color: black;
+}
 
-
-
+/* .footer-link .seprator {
+  width: 269px;
+  height: 0px;
+  border: 1px solid #ffffff;
+  transform: rotate(89.79deg);
+} */
+.footer-contact {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 42px;
+  text-align: center;
+  color: white;
+}
 
 /* 
 home news */
-
 .news-container {
   font-family: sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   height: 100vh;
   background-color: #272727;
 }
 
-.bg-orange {
-  background-color: #ff652f;
+.news {
+  font-size: 50px;
+  font-weight: bold;
 }
 
-.news{
-  font-size: 72px;
+/* research */
+.research-heading {
+  font-weight: bold;
+  font-size: 50px;
 }
 
-
-/* 
-research */
-
-.res-container{
-  font-family: sans-serif;
-  display: flex;
-  background-color: #272727;
+.btn-link {
+  text-decoration: none !important;
 }
 
-.text-orange{
-  color: #ff652f;
+.remove-space {
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
-.research li{
-  margin: 10px 0;
+.text-text {
+  font-weight: 600;
+  font-size: 25px;
+  text-align: center;
+}
+
+.research button {
   background-color: #ffe401;
   color: #272727;
+  padding: 10px 30px;
+  font-size: 25px;
+  font-weight: bold;
 }
 
-.research .btn{
+.research .btn {
   background-color: #ffe401;
   border-color: #ffe401;
   color: #272727;
 }
 
-.dropdown-menu{
-  background-color: #747474;
-  color: white;
-  justify-content: center;
-}
-
-.dropdown-item{
-  color: white;
-}
-
-.bg-grey{
-  background-color:#747474 ;
-  
-}
-.text-dark{
-  color: #272727;
-}
-
-
-.ehipassiko{
+.ehipassiko {
   position: relative;
-
-  color: #ffe401;
+  color: "Raleway", sans-serif;
   -webkit-transform: rotate(-90deg);
           transform: rotate(-90deg);
 }
 
-/* new and events pagination and arrow */
-
-.cJeRRR{
-  box-shadow: 0 0 1px 3px #ff652f !important;
+.cJeRRR {
+  -webkit-box-shadow: 0 0 1px 3px #ff652f !important;
+          box-shadow: 0 0 1px 3px #ff652f !important;
   background-color: white !important;
 }
 
-.cJeRRR:hover, .cJeRRR:focus {
+.cJeRRR:hover,
+.cJeRRR:focus {
   cursor: pointer;
-  box-shadow: 0 0 1px 3px white;
+  -webkit-box-shadow: 0 0 1px 3px white;
+          box-shadow: 0 0 1px 3px white;
 }
 
-
-.cJeRRR:hover, .cJeRRR:focus {
+.cJeRRR:hover,
+.cJeRRR:focus {
   cursor: pointer;
-  box-shadow: 0 0 1px 3px #ff652f !important;
-  background-color: #ff652f ;
+  -webkit-box-shadow: 0 0 1px 3px #ff652f !important;
+          box-shadow: 0 0 1px 3px #ff652f !important;
+  background-color: #ff652f;
 }
 
-.lgksPe{
+.lgksPe {
   background-color: #ff652f !important;
 }
 
-.iLquPE{
+.iLquPE {
   background-color: #ff652f !important;
 }
 
-
+.facility-heading {
+  font-weight: 600;
+  font-size: 50px;
+}
 
 .news-modal {
   background-color: #747474;
@@ -396,5 +426,7 @@ research */
   text-align: center;
 }
 
-
+.facility-description {
+  font-size: 25px;
+}
 /*# sourceMappingURL=style.css.map */

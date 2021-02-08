@@ -34,7 +34,10 @@ const Courses = () => {
       className="container-fluid text-white"
       style={{ backgroundColor: "black" }}
     >
-      <h1 className="course-heading p-5">COURSES</h1>
+      <div className="text-center">
+        <h1 className=" display-2 p-5 font-weight-bolder">COURSES</h1>
+      </div>
+
       <ul className="timeline">
         <div className="content-left">
           <p>
