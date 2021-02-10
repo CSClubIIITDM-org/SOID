@@ -8,6 +8,10 @@ const Menubar = () => {
       link: "/",
     },
     {
+      name: "About",
+      link: "/about",
+    },
+    {
       name: "Courses",
       link: "course",
     },
@@ -19,14 +23,6 @@ const Menubar = () => {
       name: "Facilities",
       link: "facilities",
     },
-    {
-      name: "Members",
-      link: "members",
-    },
-    // {
-    //   name: "Contact",
-    //   link: "contact",
-    // },
   ];
 
   return (

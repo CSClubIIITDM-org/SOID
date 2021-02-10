@@ -8,6 +8,7 @@ import Courses from "./components/Courses";
 import Footer from "./components/Footer";
 import ResearchPage from "./Pages/ResearchPage";
 import Facilities from "./Pages/Facilities";
+import About from "./Pages/About";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Menubar />
         <Switch>
           <Route path="/" exact component={HomePage} />
+          <Route path="/about" exact component={About} />
           <Route path="/members" exact component={ContactPage} />
           <Route path="/course" exact component={Courses} />
           <Route path="/research" exact component={ResearchPage} />

@@ -46,7 +46,7 @@ const Slider = () => {
             <div className="position-relative" style={{ zIndex: 2000 }}>
               <h1
                 className="position-absolute text-center text-primary font-weight-bold display-1 py-5 px-5"
-                style={{ marginTop: "10%" }}
+                style={{ marginTop: "10%", fontSize: "80px" }}
               >
                 School of Interdisciplinary Design and Innovation
               </h1>

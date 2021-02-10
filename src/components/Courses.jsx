@@ -35,7 +35,7 @@ const Courses = () => {
       style={{ backgroundColor: "black" }}
     >
       <div className="text-center">
-        <h1 className=" display-2 p-5 font-weight-bolder">COURSES</h1>
+        <h1 className=" display-2 p-5 course-heading">COURSES</h1>
       </div>
 
       <ul className="timeline">

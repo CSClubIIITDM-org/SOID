@@ -5,7 +5,7 @@
 
 .img-fliter {
   -webkit-filter: grayscale(100%);
-          filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 
 .bg-transparent {
@@ -92,7 +92,7 @@
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
-  font-size: 86px;
+  font-size: 80px;
   text-align: center;
   padding: 75px;
   color: #000000;
@@ -131,12 +131,12 @@
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 55px;
+  font-size: 60px;
   line-height: 85px;
   padding-left: 134px;
   padding-top: 160px;
   padding-bottom: 140px;
-  color: #000000;
+  color: white;
 }
 
 .about-description {
@@ -181,6 +181,11 @@
 
 .objective-button:hover {
   background-color: #ff652f;
+  box-shadow: 0 2.8px 2.2px rgba(255, 255, 255, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(255, 255, 255, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(255, 255, 255, 0.086),
+    0 100px 80px rgba(255, 255, 255, 0.12);
 }
 
 .modal_special {
@@ -199,9 +204,8 @@
 
 /* Courses section */
 .course-heading {
-  font-weight: 900;
-  font-size: 72px;
-  line-height: 85px;
+  font-weight: 800;
+  font-size: 60px;
   text-align: center;
 }
 
@@ -253,7 +257,7 @@
 
 .timeline p {
   font-weight: normal;
-  font-size: 20px;
+  font-size: 30px;
   line-height: 42px;
 }
 
@@ -266,7 +270,7 @@
   font-size: 50px;
   line-height: 85px;
   -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
+  text-decoration-line: underline;
 }
 
 .content-left {
@@ -292,7 +296,7 @@
   text-align: center;
   color: #000000;
   -webkit-transform: rotate(-90deg);
-          transform: rotate(-90deg);
+  transform: rotate(-90deg);
 }
 
 .footer-link {
@@ -326,24 +330,25 @@ home news */
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   height: 100vh;
   background-color: #272727;
 }
 
 .news {
-  font-size: 50px;
+  font-size: 60px;
   font-weight: bold;
 }
 
 /* research */
 .research-heading {
   font-weight: bold;
-  font-size: 50px;
+  font-size: 60px;
+  padding: 0 200px;
 }
 
 .btn-link {
@@ -379,54 +384,80 @@ home news */
   position: relative;
   color: "Raleway", sans-serif;
   -webkit-transform: rotate(-90deg);
-          transform: rotate(-90deg);
-}
-
-.cJeRRR {
-  -webkit-box-shadow: 0 0 1px 3px #ff652f !important;
-          box-shadow: 0 0 1px 3px #ff652f !important;
-  background-color: white !important;
-}
-
-.cJeRRR:hover,
-.cJeRRR:focus {
-  cursor: pointer;
-  -webkit-box-shadow: 0 0 1px 3px white;
-          box-shadow: 0 0 1px 3px white;
-}
-
-.cJeRRR:hover,
-.cJeRRR:focus {
-  cursor: pointer;
-  -webkit-box-shadow: 0 0 1px 3px #ff652f !important;
-          box-shadow: 0 0 1px 3px #ff652f !important;
-  background-color: #ff652f;
-}
-
-.lgksPe {
-  background-color: #ff652f !important;
-}
-
-.iLquPE {
-  background-color: #ff652f !important;
+  transform: rotate(-90deg);
 }
 
 .facility-heading {
-  font-weight: 600;
-  font-size: 50px;
+  font-weight: bold;
+  font-size: 60px;
 }
 
-.news-modal {
-  background-color: #747474;
+.news-modal-heading {
+  font-size: 40px;
+  color: #ff652f;
 }
 
 .news-modal p {
   font-weight: 500;
-  font-size: 35px;
+  font-size: 25px;
   text-align: center;
 }
 
 .facility-description {
   font-size: 25px;
 }
+
+/* ///////////// */
+
+/* .wrap {
+  font-size: 24px;
+}
+
+.clip-svg {
+  width: 0;
+  height: 0;
+}
+
+.clip-caption {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+.clip-each {
+  display: block;
+  position: relative;
+  clip-path: url("#hexagon-clip");
+  transition: all 0.1s ease-in;
+  margin: 0 auto;
+}
+
+a.clip-each:hover {
+  background: #9e566e;
+  -webkit-transition: all 0.25s ease-in;
+  transition: all 0.25s ease-in;
+}
+
+.clip-gradient {
+  background: #ffe401;
+  width: 160px;
+  height: 160px;
+}
+
+.clip-gradient .clip-caption {
+  color: #fff;
+}
+
+@media only screen and (min-width: 550px) {
+  .wrap {
+    display: table;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+  }
+} */
+
 /*# sourceMappingURL=style.css.map */

@@ -3,7 +3,7 @@ import React from "react";
 const Research = () => {
   return (
     <React.Fragment>
-      <div className="bg-dark p-3">
+      <div className="bg-dark ">
         <h4 className="text-orange text-center pb-5 pt-5 research-heading">
           Research in Interdisciplinary Design and Innovation
         </h4>
@@ -166,7 +166,7 @@ const Research = () => {
             </div>
           </div>
 
-          <div className="card research mb-3 border-0">
+          <div className="card research border-0">
             <div className="card-header bg-dark " id="headingOne">
               <h5 className=" text-center m-0 ">
                 <button
@@ -206,6 +206,24 @@ const Research = () => {
             </div>
           </div>
         </div>
+
+        {/* <section id="lab" className="bg-dark">
+          <div class="wrap">
+            <div class="clip-block">
+              <a href="#" class="clip-each clip-gradient">
+                <div class="clip-caption">work</div>
+              </a>
+            </div>
+
+            <svg class="clip-svg">
+              <defs>
+                <clipPath id="hexagon-clip" clipPathUnits="objectBoundingBox">
+                  <polygon points="50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%" />
+                </clipPath>
+              </defs>
+            </svg>
+          </div>
+        </section> */}
       </div>
     </React.Fragment>
   );
