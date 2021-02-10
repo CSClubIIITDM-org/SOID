@@ -24,10 +24,11 @@ function NewsModal(props) {
       centered
     >
       <div className="news-modal ">
-        <Modal.Header closeButton className="border border-0 text-center">
-          <h4 className="text-center text-dark">NEWS TITLE : NEWS TITLE</h4>
-        </Modal.Header>
+        <Modal.Header closeButton className="border border-0 text-center" />
         <Modal.Body>
+          <h4 className="text-center pb-4 news-modal-heading">
+            NEWS TITLE : NEWS TITLE
+          </h4>
           <img
             width={100}
             height={100}

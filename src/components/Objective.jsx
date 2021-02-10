@@ -23,7 +23,7 @@ function MyVerticallyCenteredModal(props) {
         </Modal.Body>
       </div>
     </Modal>
-  )
+  );
 }
 
 const Objective = () => {

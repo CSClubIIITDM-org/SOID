@@ -8,7 +8,7 @@ const Motivation = () => {
   return (
     <React.Fragment>
       <div className="bg-dark">
-        <h4 className="text-warning text-center pb-5 pt-5 news">MOTIVATION</h4>
+        <h4 className="text-warning text-center pb-5 pt-5 news">Motivation</h4>
 
         <Container>
           <div className="bg-dark shadow p-3 mb-5  rounded card text-white  mb-3">

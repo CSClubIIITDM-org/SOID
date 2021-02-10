@@ -3,11 +3,11 @@ import React from "react";
 const Research = () => {
   return (
     <React.Fragment>
-      <div className="bg-dark p-3">
+      <div className="bg-dark ">
         <h4 className="text-orange text-center pb-5 pt-5 research-heading">
           Research in Interdisciplinary Design and Innovation
         </h4>
-{/* 
+
         <div id="accordion">
           <div className="card research mb-3 border-0">
             <div className="card-header bg-dark " id="headingOne">
@@ -166,7 +166,7 @@ const Research = () => {
             </div>
           </div>
 
-          <div className="card research mb-3 border-0">
+          <div className="card research border-0">
             <div className="card-header bg-dark " id="headingOne">
               <h5 className=" text-center m-0 ">
                 <button
@@ -205,139 +205,25 @@ const Research = () => {
               </div>
             </div>
           </div>
-        </div> */}
-
-
-
-
-        <section id="lab" className="bg-dark" >
-     
-
-<div class="lab_item">
-<div className="border-0">		
-<button
-                  className="btn btn-link w-50 border-0 text-orange"
-                  data-toggle="collapse"
-                  data-target="#collapseOne"
-                  aria-expanded="true"
-                  aria-controls="collapseOne"
-                  
-                >
-                  Product Design & Innovation Process
-                </button>  
-
-   
-            </div> 
-
-
-                
-<div class="hexagon hexagon2 bg-warning">
-
-    <div class="hexagon-in1">
-        <div class="hexagon-in2" >  
-            
         </div>
-     </div>
 
- </div>
-  
- 
- </div>
+        {/* <section id="lab" className="bg-dark">
+          <div class="wrap">
+            <div class="clip-block">
+              <a href="#" class="clip-each clip-gradient">
+                <div class="clip-caption">work</div>
+              </a>
+            </div>
 
- <div class="lab_item">		
-<div class="hexagon hexagon2">
-    <div class="hexagon-in1">
-        <div class="hexagon-in2" >                
-        </div>
-     </div>
- </div>
- <button
-                  className="btn btn-link w-50 border-0 "
-                  data-toggle="collapse"
-                  data-target="#collapseOne"
-                  aria-expanded="true"
-                  aria-controls="collapseOne"
-                >
-                  Product Design & Innovation Process
-                </button>
- 
- </div>
-
-
- <div class="lab_item">		
-<div class="hexagon hexagon2">
-    <div class="hexagon-in1">
-        <div class="hexagon-in2" >                
-        </div>
-     </div>
- </div>
- <button
-                  className="btn btn-link w-50 border-0 "
-                  data-toggle="collapse"
-                  data-target="#collapseOne"
-                  aria-expanded="true"
-                  aria-controls="collapseOne"
-                >
-                  Product Design & Innovation Process
-                </button>
- 
- </div>
-
- <div class="lab_item">		
-<div class="hexagon hexagon2">
-    <div class="hexagon-in1">
-        <div class="hexagon-in2">                
-        </div>
-     </div>
- </div>
- <button
-                  className="btn btn-link w-50 border-0 "
-                  data-toggle="collapse"
-                  data-target="#collapseOne"
-                  aria-expanded="true"
-                  aria-controls="collapseOne"
-                >
-                  Product Design & Innovation Process
-                </button>
- 
- </div>
-<div class="lab_item">		
-<div class="hexagon hexagon2">
-    <div class="hexagon-in1">
-        <div class="hexagon-in2" >                
-        </div>
-     </div>
- </div>
- <button
-                  className="btn btn-link w-50 border-0 "
-                  data-toggle="collapse"
-                  data-target="#collapseOne"
-                  aria-expanded="true"
-                  aria-controls="collapseOne"
-                >
-                  Product Design & Innovation Process
-                </button>
- 
- </div>
-
-
-
-
-
-
-
-
-  
-
-
- 
-  
-
-</section>
-
-
-
-
+            <svg class="clip-svg">
+              <defs>
+                <clipPath id="hexagon-clip" clipPathUnits="objectBoundingBox">
+                  <polygon points="50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%" />
+                </clipPath>
+              </defs>
+            </svg>
+          </div>
+        </section> */}
       </div>
     </React.Fragment>
   );
