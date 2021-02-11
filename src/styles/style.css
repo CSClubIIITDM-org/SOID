@@ -283,6 +283,36 @@
   text-align: left;
 }
 
+
+
+@media screen  and (max-width:550px){
+
+  .timeline p{
+    text-align: right !important;
+  }
+  .timeline h1{
+    text-align: left !important;
+    margin: auto;
+  }
+
+  .content-left{
+    margin: auto;
+  }
+
+  .content-right{
+    margin: auto;
+  }
+  .timeline::before {
+    left: 5%;
+
+  }
+  
+.timeline .timeline-icon {
+  left: 0%;
+  
+}
+}
+
 /* Footer-section */
 .footer-heading {
   position: relative;
@@ -405,6 +435,24 @@ home news */
 
 .facility-description {
   font-size: 25px;
+}
+
+@media screen  and (max-width:550px){
+  .ehipassiko {
+  
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+   .facility-content{
+     display: block ;
+   }
+
+   .facility-content img{
+     display: block;
+     margin-left: auto;
+     margin-right: auto !important;
+   }
 }
 
 /* ///////////// */

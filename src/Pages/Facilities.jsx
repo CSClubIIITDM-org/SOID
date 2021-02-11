@@ -52,12 +52,12 @@ const ResContent = () => {
           </Col>
         </Row>
 
-        <Media className="pt-5 pb-5">
+        <Media className="pt-5 pb-5 facility-content">
           <a href="https://github.com/WebOpsIIITDMK/SOID">
             <img
               width={150}
               height={150}
-              className="mr-3"
+              className="mr-3 "
               src={favicon}
               alt="Generic placeholder"
             />
@@ -77,7 +77,7 @@ const ResContent = () => {
           </Media.Body>
         </Media>
 
-        <Media className="pt-5 pb-5 ">
+        <Media className="pt-5 pb-5 facility-content">
           <Media.Body>
             <p
               className="text-light text-right p-0"

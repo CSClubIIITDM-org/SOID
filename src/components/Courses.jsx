@@ -39,7 +39,7 @@ const Courses = () => {
       </div>
 
       <ul className="timeline">
-        <div className="content-left">
+        <div className="content-left ml-5">
           <p>
             A <span> basic module of six courses (18 credits)</span> in product
             design and entrepreneurship spread over the first six semesters to
