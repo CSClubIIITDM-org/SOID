@@ -35,7 +35,7 @@ const Objective = () => {
           <div
             className="col-sm-4 text-white objective-title"
             style={{
-              textAlign: "right",
+             
               marginTop: "20%",
               marginBottom: "30%",
             }}

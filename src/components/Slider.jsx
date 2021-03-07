@@ -41,12 +41,12 @@ const Slider = () => {
           </ul>
           <div
             className="carousel-inner"
-            style={{ width: "100%", height: "650px" }}
+            style={{ width: "100%" }}
           >
             <div className="position-relative" style={{ zIndex: 2000 }}>
               <h1
-                className="position-absolute text-center text-primary font-weight-bold display-1 py-5 px-5"
-                style={{ marginTop: "10%", fontSize: "80px" }}
+                className="home-head position-absolute text-center text-primary font-weight-bold display-1 py-3 px-3"
+                style={{ marginTop: "10%" }}
               >
                 School of Interdisciplinary Design and Innovation
               </h1>

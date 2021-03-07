@@ -88,6 +88,9 @@
   width: 100%;
 }
 
+.home-head{
+  font-size: 80px;
+}
 .contact-heading {
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -97,6 +100,27 @@
   padding: 75px;
   color: #000000;
 }
+
+.carousel-inner{
+  height: 650px;
+}
+
+@media screen  and (max-width:550px){
+
+  .home-head{
+    font-size: 35px;
+  }
+
+  .contact-heading{
+    font-size: 35px;
+  }
+
+  .carousel-inner{
+    height: 400px;
+  }
+}
+
+
 
 /* Carousel component */
 .carousel-item:after {
@@ -139,6 +163,7 @@
   color:#ffe401;
 }
 
+
 .about-description {
   font-family: Raleway;
   font-style: normal;
@@ -161,6 +186,7 @@
   font-weight: 800;
   font-size: 72px;
   padding-top: 30px;
+  text-align: right;
 }
 
 .objective-button {
@@ -186,6 +212,55 @@
     0 22.3px 17.9px rgba(0, 0, 0, 0.072),
     0 41.8px 33.4px rgba(255, 255, 255, 0.086),
     0 100px 80px rgba(255, 255, 255, 0.12);
+}
+
+@media screen  and (max-width:750px){
+
+  .about-heading {
+    text-align: center;
+    width: auto;
+   font-size: 35px;
+    padding-right: 0;
+    padding-left: 14px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color:#ffe401;
+  }
+
+  .about-description {
+    
+    font-size: 20px;
+    text-align: center;
+    line-height: 36px;
+    padding-bottom: 25px;
+    padding-right: 34px;
+    padding-left: 34px;
+   
+  }
+  
+  
+
+
+
+  .objective-title {
+    font-weight: 800;
+    font-size: 32px;
+    padding-top: 30px;
+    text-align: center;
+  }
+  
+  .objective-button {
+    width: 255px;
+    height: 245px;
+    border-radius: 50%;
+    border: 10px solid #ff652f;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #272727;
+    font-weight: 500;
+    font-size: 20px;
+  }
+  
 }
 
 .modal_special {
