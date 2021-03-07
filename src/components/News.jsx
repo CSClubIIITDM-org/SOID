@@ -56,11 +56,7 @@ function News() {
         <Carousel breakPoints={breakPoints} itemPadding={[10, 10]}>
           <Card className="bg-orange text-light text-center p-3">
             <p className="mt-2 ml-2 mb-2" onClick={() => setModalShow(true)}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-              posuere erat a ante. Lorem ipsum dolor sit amet, consectetur
-              adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor
-              sit amet, consectetur adipiscing elit. Integer posuere erat a
-              ante.
+            13 Mar 2021 - 10 am-3 pm 2nd Hackathon for 3rd years (PDP)
             </p>
             <div className="modal" tabIndex="-1">
               <div className="modal-dialog">
@@ -83,20 +79,13 @@ function News() {
           </Card>
           <Card className="bg-orange text-light text-center p-3">
             <p className="mt-2 ml-2 mb-2" onClick={() => setModalShow(true)}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-              posuere erat a ante. Lorem ipsum dolor sit amet, consectetur
-              adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor
-              sit amet, consectetur adipiscing elit. Integer posuere erat a
-              ante.
+            13 Mar 2021 - 10 am-1 pm 
+smart product concept/finding unstated needs thru ethnography for 2nd years
             </p>
           </Card>
           <Card className="bg-orange text-light text-center p-3">
             <p className="mt-2 ml-2 mb-2 " onClick={() => setModalShow(true)}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-              posuere erat a ante. Lorem ipsum dolor sit amet, consectetur
-              adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor
-              sit amet, consectetur adipiscing elit. Integer posuere erat a
-              ante.
+            10 Apr 2021: EHIPASSIKO Summer 
             </p>
           </Card>
           <Card className="bg-orange text-light text-center p-3">

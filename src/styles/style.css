@@ -136,7 +136,7 @@
   padding-left: 134px;
   padding-top: 160px;
   padding-bottom: 140px;
-  color: white;
+  color:#ffe401;
 }
 
 .about-description {
@@ -247,10 +247,10 @@
   height: 40px;
   display: inline-block;
   border-radius: 40px;
-  background: #ff652f;
+  background: #ffe401;
   line-height: 10px;
   font-size: 14px;
-  border: 5px solid #ff652f;
+  border: 5px solid #ffe401;
   -webkit-transition: border-color 0.2s linear;
   transition: border-color 0.2s linear;
 }
@@ -259,10 +259,11 @@
   font-weight: normal;
   font-size: 30px;
   line-height: 42px;
+  color: #272727;
 }
 
 .timeline p span {
-  color: #ff652f;
+  color: #ffe401;
 }
 
 .timeline h1 {
@@ -271,6 +272,7 @@
   line-height: 85px;
   -webkit-text-decoration-line: underline;
   text-decoration-line: underline;
+  color: #272727;
 }
 
 .content-left {
@@ -286,6 +288,10 @@
 
 
 @media screen  and (max-width:550px){
+
+  #timeline-head {
+    text-align: left !important;
+  }
 
   .timeline p{
     text-align: right !important;
