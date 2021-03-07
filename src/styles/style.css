@@ -136,7 +136,7 @@
   padding-left: 134px;
   padding-top: 160px;
   padding-bottom: 140px;
-  color:#ffe401;
+  color: #ffe401;
 }
 
 .about-description {
@@ -259,7 +259,7 @@
   font-weight: normal;
   font-size: 30px;
   line-height: 42px;
-  color: #272727;
+  color: #000000;
 }
 
 .timeline p span {
@@ -272,7 +272,7 @@
   line-height: 85px;
   -webkit-text-decoration-line: underline;
   text-decoration-line: underline;
-  color: #272727;
+  color: #000000;
 }
 
 .content-left {
@@ -285,38 +285,42 @@
   text-align: left;
 }
 
-
-
-@media screen  and (max-width:550px){
-
+@media screen and (max-width: 550px) {
   #timeline-head {
     text-align: left !important;
   }
 
-  .timeline p{
-    text-align: right !important;
-  }
-  .timeline h1{
+  .timeline p {
     text-align: left !important;
+    font-size: 20px;
+  }
+  .timeline h1 {
+    text-align: left !important;
+    font-size: 40px;
+    margin: auto;
+  }
+  .timeline .timeline-icon .inner-circle {
+    width: 30px;
+    height: 30px;
+  }
+  .course-heading {
+    font-size: 40px;
+  }
+
+  .content-left {
     margin: auto;
   }
 
-  .content-left{
-    margin: auto;
-  }
-
-  .content-right{
+  .content-right {
     margin: auto;
   }
   .timeline::before {
     left: 5%;
-
   }
-  
-.timeline .timeline-icon {
-  left: 0%;
-  
-}
+
+  .timeline .timeline-icon {
+    left: 0%;
+  }
 }
 
 /* Footer-section */
@@ -443,22 +447,42 @@ home news */
   font-size: 25px;
 }
 
-@media screen  and (max-width:550px){
+.facility-about-madeit {
+  font-size: 25px;
+}
+
+@media screen and (max-width: 550px) {
   .ehipassiko {
-  
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
 
-   .facility-content{
-     display: block ;
-   }
+  .facility-content {
+    display: block;
+  }
 
-   .facility-content img{
-     display: block;
-     margin-left: auto;
-     margin-right: auto !important;
-   }
+  .facility-content img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto !important;
+  }
+
+  .research-heading {
+    font-size: 30px;
+    padding: 0 30px;
+  }
+
+  .news {
+    font-size: 30px;
+  }
+
+  .facility-description {
+    font-size: 20px;
+  }
+  .facility-about-madeit {
+    font-size: 20px;
+    text-align: center;
+  }
 }
 
 /* ///////////// */

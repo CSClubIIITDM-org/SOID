@@ -45,7 +45,7 @@ const footer = () => {
   ];
   return (
     <React.Fragment>
-      <div className="bg-secondary ">
+      <div style={{ backgroundColor: "#FF652F" }}>
         <div className="footer-heading">
           <h1>SIDI</h1>
         </div>
