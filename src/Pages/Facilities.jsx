@@ -63,7 +63,7 @@ const ResContent = () => {
             />
           </a>
           <Media.Body>
-            <p className="text-light facility-about-madeit">
+            <p className="text-light facility-about-madeit ">
               SIDI’s activities are also tightly integrated with the incubator
               <a className="text-warning" href="#!">
                 {" "}
