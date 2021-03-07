@@ -4,7 +4,7 @@ const About = () => {
   return (
     <React.Fragment>
       <div className="bg-grey about-section mb-0">
-        <h1 className="about-heading">What is SIDI ?</h1>
+        <h1 className="about-heading ">What is SIDI ?</h1>
         <p className="about-description mb-0">
           <span>
             The School of Interdisciplinary Design and Innovation (SIDI)
