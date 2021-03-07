@@ -77,7 +77,7 @@ const ResContent = () => {
           </Media.Body>
         </Media>
 
-        <Media className="pt-5 pb-5 facility-content">
+        {/* <Media className="pt-5 pb-5 facility-content">
           <Media.Body>
             <p
               className="text-light text-right p-0"
@@ -98,7 +98,7 @@ const ResContent = () => {
               EHIPASSIKO
             </h1>
           </div>
-        </Media>
+        </Media> */}
       </Container>
     </div>
   );
