@@ -11,7 +11,11 @@ const CourseDes = (props) => {
         </div>
         <div className={props.align}>
           <h1 className="pb-3 ml-5">{props.level}</h1>
-          <p className="ml-5">{props.info}</p>
+          <p className="ml-5">
+            {props.info1}
+            <span>{props.highlight}</span>
+            {props.info2}
+          </p>
         </div>
       </li>
     </React.Fragment>

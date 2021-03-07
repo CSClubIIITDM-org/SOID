@@ -35,7 +35,6 @@ const Objective = () => {
           <div
             className="col-sm-4 text-white objective-title"
             style={{
-             
               marginTop: "20%",
               marginBottom: "30%",
             }}
@@ -45,21 +44,24 @@ const Objective = () => {
           <div className="col-sm-4 ">
             <button
               onClick={() => setModalShow(true)}
-              className="p-3 m-3 objective-button text-white"
+              className="p-3 m-3 objective-button text-white objective-button-one"
             >
               nurture CURIOSITY creativity & collaboration{" "}
             </button>
             <button
               onClick={() => setModalShow(true)}
-              className="p-3 m-3 objective-button text-white"
+              className="p-3 m-3 objective-button text-white objective-button-two"
             >
               a new model of INter-disciplinary learning in line with nep 2020
             </button>
           </div>
-          <div className="col-sm-4" style={{ marginTop: "12%" }}>
+          <div
+            className="col-sm-4 change-in-mobile"
+            style={{ marginTop: "12%" }}
+          >
             <button
               onClick={() => setModalShow(true)}
-              className="p-3 m-3 objective-button text-white"
+              className="p-3 m-3 objective-button text-white objective-button-three"
             >
               inter-disciplinary research in design and innovation
             </button>
